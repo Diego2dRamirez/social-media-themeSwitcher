@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+   @apply font-Inter
+}
+
 label input:checked ~ span {
    @apply right-1 translate-x-9
   }
