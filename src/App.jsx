@@ -1,6 +1,11 @@
 import { Hedaer } from "./Components/Header/Header"
 import { SocialCards } from "./Components/SocialCards/SocialCards"
+import iconFacebook from './assets/icon-facebook.svg'
+import iconTwitter from './assets/icon-twitter.svg'
 import iconInstagram from './assets/icon-instagram.svg'
+import iconYouTube from './assets/icon-youtube.svg'
+import iconDown from './assets/icon-down.svg'
+import iconUp from './assets/icon-up.svg'
 
 
 function App() {
@@ -11,22 +16,22 @@ function App() {
       <Hedaer />
       <SocialCards
         background="bg-Facebook"
-        text="text-Facebook"
-        logo="logo-facebook"
+        img={iconFacebook}
         user="@nathanf"
         number={1987}
-        arrow="caret-up-outline"
+        arrow={iconUp}
         color="text-LimeGreen"
+        text="followers"
         today={12}
       />
       <SocialCards
         background="bg-Twitter"
-        text="text-Twitter"
-        logo="logo-twitter"
+        img={iconTwitter}
         user="@nathanf"
         number={1044}
-        arrow="caret-up-outline"
+        arrow={iconUp}
         color="text-LimeGreen"
+        text="followers"
         today={99}
       />
       <SocialCards
@@ -34,18 +39,19 @@ function App() {
         img={iconInstagram}
         user="@realnathanf"
         number="11k"
-        arrow="caret-up-outline"
+        arrow={iconUp}
         color="text-LimeGreen"
+        text="followers"
         today={1099}
       />
       <SocialCards
         background="bg-YouTube"
-        text="text-YouTube"
-        logo="logo-YouTube"
+        img={iconYouTube}
         user="@Nathan f,"
         number={8239}
-        arrow="caret-down-outline"
+        arrow={iconDown}
         color="text-BrightRed"
+        text="sunscribers"
         today={144}
       />
     </>
