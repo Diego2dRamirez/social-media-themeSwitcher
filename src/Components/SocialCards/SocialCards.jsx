@@ -5,9 +5,10 @@ export const SocialCards = (props) => {
     <article className={`w-80 m-auto ${props.background} pt-1 rounded-md`}>
 
       <section className="bg-VeryPaleBlue w-full h-full  flex flex-col items-center mb-7 rounded-br-md rounded-bl-md shadow-md p-4">
-        <div className="flex gap-2">
+        <div className="flex gap-2 relative">
           <i className={`${props.text} text-2xl`}>
             <ion-icon name={props.logo}></ion-icon>
+            <img src={props.img} alt="icon" className="absolute top-1 left-1" />
           </i>
         
           <span className="text-DarkGrayishBlue font-semibold">{props.user}</span>

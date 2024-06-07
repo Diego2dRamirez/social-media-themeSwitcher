@@ -1,5 +1,6 @@
 import { Hedaer } from "./Components/Header/Header"
 import { SocialCards } from "./Components/SocialCards/SocialCards"
+import iconInstagram from './assets/icon-instagram.svg'
 
 
 function App() {
@@ -30,8 +31,7 @@ function App() {
       />
       <SocialCards
         background="bg-gradient-to-r from-Instagram1 to-Instagram2"
-        text="text-Instagram"
-        logo="logo-Instagram"
+        img={iconInstagram}
         user="@realnathanf"
         number="11k"
         arrow="caret-up-outline"
