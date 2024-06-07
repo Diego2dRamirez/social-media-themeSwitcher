@@ -32,7 +32,7 @@ export default {
         'VeryPaleBlue': '#f5f7ff', //(Top BG Pattern)
         'LightGrayishBlue': '#f0f2fa', //(Card BG)
         'DarkGrayishBlue': '#63687e', //(Text)
-        'VeryDarkBlue': '#1e202a', //(Text)
+        'VeryDarkBlueLight': '#1e202a', //(Text)
         
       },
     },
