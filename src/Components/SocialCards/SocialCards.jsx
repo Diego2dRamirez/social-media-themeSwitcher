@@ -2,9 +2,9 @@ import React from "react";
 
 export const SocialCards = (props) => {
   return (
-    <article className={`w-80 m-auto ${props.background} pt-1 rounded-md`}>
+    <section className={`w-80 m-auto ${props.background} pt-1 rounded-md lg:h-64`}>
 
-      <section className="bg-VeryPaleBlue w-full h-full  flex flex-col items-center mb-7 rounded-br-md rounded-bl-md shadow-md p-4">
+      <article className="bg-VeryPaleBlue w-full h-full  flex flex-col items-center mb-7 rounded-br-md rounded-bl-md shadow-md p-4 lg:mb-0 lg:py-10">
         <div className="flex gap-2 mb-2 items-center">          
             <img src={props.img} alt="icon"/>
           <span className="text-DarkGrayishBlue font-semibold">{props.user}</span>
@@ -19,7 +19,7 @@ export const SocialCards = (props) => {
           <span>{props.today} Today</span>
         </div>
         
-      </section>
-    </article>
+      </article>
+    </section>
   );
 };
