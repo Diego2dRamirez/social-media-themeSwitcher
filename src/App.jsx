@@ -16,7 +16,7 @@ function App() {
     <>
       <Hedaer />
 
-      <section className="lg:flex lg:px-10 lg:gap-5">
+      <section className="lg:flex lg:px-4 lg:gap-5 xl:px-0">
         <SocialCards
           background="bg-Facebook"
           img={iconFacebook}
@@ -60,71 +60,73 @@ function App() {
       </section>
 
       <section className="mt-11">
-        <h2 className="text-2xl text-DarkGrayishBlue font-bold pl-5">Overview - Today</h2>
-        <Overview
-          subTitle="page views"
-          img={iconFacebook}
-          number="87"
-          arrow={iconUp}
-          percentage="3"
-          color="text-LimeGreen"
-        />
-        <Overview
-          subTitle="likes"
-          img={iconFacebook}
-          number="52"
-          arrow={iconDown}
-          percentage="2"
-          color="text-BrightRed"
-        />
-        <Overview
-          subTitle="likes"
-          img={iconInstagram}
-          number="5462"
-          arrow={iconUp}
-          percentage="2257"
-          color="text-LimeGreen"
-        />
-        <Overview
-          subTitle="profile views"
-          img={iconInstagram}
-          number="52k"
-          arrow={iconUp}
-          percentage="1375"
-          color="text-LimeGreen"
-        />
-        <Overview
-          subTitle="retweets"
-          img={iconTwitter}
-          number="117"
-          arrow={iconUp}
-          percentage="303"
-          color="text-LimeGreen"
-        />
-        <Overview
-          subTitle="likes"
-          img={iconTwitter}
-          number="507"
-          arrow={iconUp}
-          percentage="553"
-          color="text-LimeGreen"
-        />
-        <Overview
-          subTitle="likes"
-          img={iconYouTube}
-          number="107"
-          arrow={iconDown}
-          percentage="19"
-          color="text-BrightRed"
-        />
-        <Overview
-          subTitle="total views"
-          img={iconYouTube}
-          number="1407"
-          arrow={iconDown}
-          percentage="12"
-          color="text-BrightRed"
-        />
+        <h2 className="text-2xl text-DarkGrayishBlue font-bold pl-5 lg:pl-8">Overview - Today</h2>
+       <div className="lg:grid lg:grid-cols-4 xl:">
+         <Overview
+           subTitle="page views"
+           img={iconFacebook}
+           number="87"
+           arrow={iconUp}
+           percentage="3"
+           color="text-LimeGreen"
+         />
+         <Overview
+           subTitle="likes"
+           img={iconFacebook}
+           number="52"
+           arrow={iconDown}
+           percentage="2"
+           color="text-BrightRed"
+         />
+         <Overview
+           subTitle="likes"
+           img={iconInstagram}
+           number="5462"
+           arrow={iconUp}
+           percentage="2257"
+           color="text-LimeGreen"
+         />
+         <Overview
+           subTitle="profile views"
+           img={iconInstagram}
+           number="52k"
+           arrow={iconUp}
+           percentage="1375"
+           color="text-LimeGreen"
+         />
+         <Overview
+           subTitle="retweets"
+           img={iconTwitter}
+           number="117"
+           arrow={iconUp}
+           percentage="303"
+           color="text-LimeGreen"
+         />
+         <Overview
+           subTitle="likes"
+           img={iconTwitter}
+           number="507"
+           arrow={iconUp}
+           percentage="553"
+           color="text-LimeGreen"
+         />
+         <Overview
+           subTitle="likes"
+           img={iconYouTube}
+           number="107"
+           arrow={iconDown}
+           percentage="19"
+           color="text-BrightRed"
+         />
+         <Overview
+           subTitle="total views"
+           img={iconYouTube}
+           number="1407"
+           arrow={iconDown}
+           percentage="12"
+           color="text-BrightRed"
+         />
+       </div>
       </section>
     </>
   )
