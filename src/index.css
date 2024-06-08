@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html{
-   @apply font-Inter
+   @apply font-Inter bg-white
 }
 
 label input:checked ~ span {
