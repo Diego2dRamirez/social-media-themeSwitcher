@@ -60,7 +60,7 @@ function App() {
       </section>
 
       <section className="mt-11">
-        <h2 className="text-2xl text-DarkGrayishBlue font-bold pl-5 lg:pl-8">Overview - Today</h2>
+        <h2 className="text-2xl text-DarkGrayishBlue font-bold pl-5 md:text-center lg:text-start lg:pl-8 dark:text-white">Overview - Today</h2>
        <div className="lg:grid lg:grid-cols-4 xl:">
          <Overview
            subTitle="page views"

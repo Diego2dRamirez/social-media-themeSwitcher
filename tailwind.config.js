@@ -25,7 +25,7 @@ export default {
         'VeryDarkBlue': '#1e202a',  //(BG)
         'VeryDarkBlue2': '#1f212e',  //(Top BG Pattern)
         'DarkDesaturatedBlue': '#252a41',  //(Card BG)
-        'DesaturatedBlue': '#3eda82',  // (Text)
+        'DesaturatedBlue': '#8b97c6',  // (Text)
 
         // Light Theme
         'ToggleLight': '#aeb3cb',
@@ -38,5 +38,6 @@ export default {
     },
   },
   plugins: [],
+  darkMode: 'selector',
 }
 
