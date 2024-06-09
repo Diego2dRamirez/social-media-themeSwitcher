@@ -2,7 +2,7 @@ import React from "react";
 
 export const Overview = (props) => {
   return (
-    <section className="w-80 bg-VeryPaleBlue my-5 m-auto shadow-md rounded-md p-5 lg:w-60 lg:h-32 xl:w-96">
+    <section className="w-80 bg-VeryPaleBlue my-5 m-auto shadow-md rounded-md p-5 lg:w-60 lg:h-32 xl:w-96 hover:bg-LightGrayishBlue cursor-pointer">
 
       <div className="flex justify-between items-center">
         <h3 className="capitalize text-DarkGrayishBlue font-bold text-sm">{props.subTitle}</h3>

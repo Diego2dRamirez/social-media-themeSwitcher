@@ -4,7 +4,7 @@ export const SocialCards = (props) => {
   return (
     <section className={`w-80 m-auto ${props.background} pt-1 rounded-md lg:h-64 xl:w-96`}>
 
-      <article className="bg-VeryPaleBlue w-full h-full  flex flex-col items-center mb-7 rounded-br-md rounded-bl-md shadow-md p-4 lg:mb-0 lg:py-10">
+      <article className="bg-VeryPaleBlue w-full h-full  flex flex-col items-center mb-7 rounded-br-md rounded-bl-md shadow-md p-4 lg:mb-0 lg:py-10 hover:bg-LightGrayishBlue cursor-pointer">
         <div className="flex gap-2 mb-2 items-center">          
             <img src={props.img} alt="icon"/>
           <span className="text-DarkGrayishBlue font-semibold">{props.user}</span>

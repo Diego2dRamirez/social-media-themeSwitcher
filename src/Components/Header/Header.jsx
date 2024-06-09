@@ -10,7 +10,7 @@ export const Hedaer = () => {
       </div>
       <div className="flex items-center justify-between">
         <p className="text-DarkGrayishBlue font-bold md:mr-5">Dark Mode</p>
-        <label className="rounded-3xl w-16 h-7 relative flex items-center justify-center">
+        <label className="rounded-3xl w-16 h-7 relative flex items-center justify-center cursor-pointer">
           <input type="checkbox" className="appearance-none" />
           <span className="absolute left-1 w-5 h-5 rounded-full z-20 bg-white transition ease-in-out duration-500 "></span>
           <b className="absolute inset-0 bg-ToggleLight rounded-3xl transition ease-in-out duration-500"></b>
