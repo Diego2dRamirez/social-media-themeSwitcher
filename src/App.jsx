@@ -7,6 +7,7 @@ import iconYouTube from './assets/icon-youtube.svg'
 import iconDown from './assets/icon-down.svg'
 import iconUp from './assets/icon-up.svg'
 import { Overview } from "./Components/Overview/Overview"
+import { Footer } from "./Footer/Footer"
 
 
 function App() {
@@ -128,6 +129,8 @@ function App() {
          />
        </div>
       </section>
+
+      <Footer />
     </>
   )
 }
